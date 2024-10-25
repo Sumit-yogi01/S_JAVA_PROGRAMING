@@ -17,6 +17,5 @@ public class Constractor {
     public static void main(String[] args) {
         
         Student objStudent = new Student("Lakshmi", 18);
-
     }
 }
