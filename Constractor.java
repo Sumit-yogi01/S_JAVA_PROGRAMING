@@ -1,4 +1,4 @@
-//constractor = it is a special method that is used to initialize objects.
+//constractor = it is a special method that is used to initialize objects...
 //..The constructor is called when an object of a class is created.
 
 class Student{
