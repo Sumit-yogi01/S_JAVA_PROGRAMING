@@ -15,8 +15,8 @@ class Vivo implements Phone , Mobile{
 }
 public class interfaces {
     public static void main(String[] args) {
-        Vivo obj = new Vivo();
-        obj.Display();
+        Vivo objofVivo = new Vivo();
+        objofVivo.Display();
 
         // we can aslo declare obj like this ....
         // Phone Vivo  = new Vivo();

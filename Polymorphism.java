@@ -23,12 +23,12 @@ class Display{
 }
 public class Polymorphism {
     public static void main(String[] args) {
-        Display object = new Display();
-        object.name = "Sumeet";
-        object.age = 21;
+        Display objectofDisplay = new Display();
+        objectofDisplay.name = "Sumeet";
+        objectofDisplay.age = 21;
 
-        object.details(object.name,object.age);
-        object.details(object.age);
+        objectofDisplay.details(objectofDisplay.name,objectofDisplay.age);
+        objectofDisplay.details(objectofDisplay.age);
     }
 }
 

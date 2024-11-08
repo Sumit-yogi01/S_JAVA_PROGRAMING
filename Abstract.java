@@ -15,8 +15,11 @@ class User extends Aadhar{
 
 public class Abstract {
    public static void main(String[] args) {
-       User object = new User();
-       object.display();
+
+      User objectofUser = new User();
+      objectofUser.display();
+
+
 
    }
 }
