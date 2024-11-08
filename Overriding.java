@@ -7,7 +7,7 @@ class Parent{
     }
 }
 
-class Subparent extends Parent{
+class child extends Parent{
     public void print(){
         System.out.println("This is sub class");
     }
@@ -15,7 +15,7 @@ class Subparent extends Parent{
 
 public class Overriding {
     public static void main(String[] args) {
-        Parent objofParent = new Subparent();
+        Parent objofParent = new child();
         objofParent.print();
     }
 }
