@@ -21,11 +21,11 @@ class School {
 public class encapsulation {
     public static void main(String[] args) {
 
-        School school = new School();
-        school.setName("Ashok");
-        school.setAge(25);
+        School objectofSchool = new School();
+        objectofSchool.setName("Ashok");
+        objectofSchool.setAge(25);
 
-        System.out.println("Name is : " + school.getName());
-        System.out.println("Age is : " + school.getAge());
+        System.out.println("Name is : " + objectofSchool.getName());
+        System.out.println("Age is : " + objectofSchool.getAge());
     }
 }

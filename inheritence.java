@@ -54,8 +54,8 @@ class calculator_functionality extends calculator_implementaion{
 public class inheritence {
 
     public static void main(String[] args) {
-        calculator_functionality obj = new calculator_functionality();
-        obj.Display();
-        obj.calculator();
+        calculator_functionality objofCalculator_functionality = new calculator_functionality();
+        objofCalculator_functionality.Display();
+        objofCalculator_functionality.calculator();
     }
 }

@@ -6,14 +6,16 @@ class Parent{
         System.out.println("This is parent class");
     }
 }
+
 class Subparent extends Parent{
     public void print(){
         System.out.println("This is sub class");
     }
 }
+
 public class Overriding {
     public static void main(String[] args) {
-        Subparent obj = new Subparent();
-        obj.print();
+        Parent objofParent = new Subparent();
+        objofParent.print();
     }
 }

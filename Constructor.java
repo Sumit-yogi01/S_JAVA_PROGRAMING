@@ -1,6 +1,6 @@
-//constractor = it is a special method that is used to initialize objects...
-//..The constructor is called when an object of a class is created.
-
+//constructor = it is a special method that is used to initialize objects...
+//The constructor is called when an object of a class is created.
+ 
 class Student{
     String name;
     int age;
@@ -13,9 +13,9 @@ class Student{
         System.out.println(this.age);
     }
 }
-public class Constractor {
+public class Constructor {
     public static void main(String[] args) {
         
-        Student objStudent = new Student("Lakshmi", 18);
+        Student objectofStudent = new Student("Lakshmi", 18);
     }
 }
